@@ -10,15 +10,15 @@
   --color-primary: #D4AF37;
   --color-on-primary: #000000;
   --color-secondary: #B8860B;
-  --color-on-secondary: #0F172A;
+  --color-on-secondary: #0D0D0D;
   --color-accent: #D4AF37;
   --color-on-accent: #000000;
-  --color-background: #0F172A;
+  --color-background: #0D0D0D;
   --color-foreground: #FFFFFF;
-  --color-card: #192134;
+  --color-card: #141414;
   --color-card-foreground: #FFFFFF;
   --color-muted: #1F1E27;
-  --color-muted-foreground: #C0C0C0;
+  --color-muted-foreground: #E1E1E1;
   --color-border: rgba(255, 255, 255, 0.08);
   --color-destructive: #DC2626;
   --color-on-destructive: #FFFFFF;
@@ -684,6 +684,31 @@ footer {
 /* ---------- Utilitários ---------- */
 .text-center { text-align: center; }
 .font-bold { font-weight: 700; }
+
+.dourado {
+  background: linear-gradient(
+    180deg,
+    #FFF6D9 0%,
+    #E5B84C 25%,
+    #9E661A 50%,
+    #D4A03C 75%,
+    #FCE38A 100%
+  );
+}
+
+.texto-dourado {
+  background: linear-gradient(
+    180deg,
+    #FFF6D9 0%,
+    #E5B84C 25%,
+    #9E661A 50%,
+    #D4A03C 75%,
+    #FCE38A 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
 .visually-hidden {
   position: absolute;
