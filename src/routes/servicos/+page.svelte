@@ -1,0 +1,179 @@
+<script>
+  import Logo from '$lib/components/Logo.svelte';
+  import Navbar from '$lib/components/Navbar.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+</script>
+
+<section class="header">
+  <div class="container">
+    <Logo />
+    <Navbar />
+    <a href="https://wa.me/558386759992" class="btn-whatsapp" target="_blank" rel="noopener">Orçamento pelo WhatsApp</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="eyebrow">Serviços</p>
+      <h1>Tudo o que sua empresa ou residência precisa</h1>
+      <p>Catálogo completo com descrição clara e benefício de cada solução oferecida pela AllTech.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/cctv.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Instalação e manutenção de CFTV</h3>
+        <p>Sistemas de circuito fechado de televisão com câmeras, DVR/NVR e acesso remoto por celular.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: monitoramento 24h de qualquer lugar.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/alarm.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Instalação e manutenção de alarmes</h3>
+        <p>Sistemas de alarme contra intrusão com sensores de abertura, movimento e notificação imediata.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: proteção ativa contra invasões.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/electric-fence.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Cerca elétrica</h3>
+        <p>Cerca elétrica perimetral com instalação certificada, manutenção preventiva e corretiva.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: barreira física e psicológica contra intrusos.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/access-control.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Controle de acesso</h3>
+        <p>Biometria, cartões de proximidade e senhas para gestão de entrada e saída de pessoas e veículos.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: controle total de quem entra e sai.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/digital-lock.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Fechaduras elétricas e eletroímãs</h3>
+        <p>Instalação de fechaduras elétricas, eletroímãs e travas eletrônicas para portas e portões.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: praticidade e segurança no acesso.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/intercom.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Interfones e videoporteiros</h3>
+        <p>Sistemas de interfonia e videoporteiro com imagem e comunicação para controle de visitantes.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: identificação antes de liberar a entrada.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/gate-automation.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Automação de portões</h3>
+        <p>Motores e acionamentos para portões basculantes, deslizantes e pivotantes com controle remoto.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: comodidade e segurança ao entrar e sair.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/gate-maintenance.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Manutenção de motores de portão</h3>
+        <p>Revisão, lubrificação, troca de peças e ajuste de motores de portão para evitar paradas inesperadas.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: maior vida útil do equipamento.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/network.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Instalação e configuração de redes</h3>
+        <p>Projeto e implantação de redes cabeadas e Wi-Fi para residências e empresas.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: conexão estável e segura em todos os ambientes.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/router.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Roteadores e equipamentos de rede</h3>
+        <p>Venda, instalação e configuração de roteadores, switches, pontos de acesso e caberia estruturada.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: infraestrutura de rede profissional.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/server.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Servidores e infraestrutura de TI</h3>
+        <p>Implantação e gerenciamento de servidores, backup e suporte à infraestrutura de tecnologia da informação.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: dados protegidos e sistemas disponíveis.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/network-monitor.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Monitoramento de redes</h3>
+        <p>Acompanhamento contínuo da rede para detectar falhas, quedas e ameaças antes que afetem o negócio.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: redução de tempo parado e perda de dados.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/solar.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Energia solar</h3>
+        <p>Projeto, venda e instalação de sistemas fotovoltaicos para residências e comércios.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: economia na conta de luz e sustentabilidade.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/technology-equipment.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Venda e instalação de equipamentos de tecnologia</h3>
+        <p>Comercialização e instalação de equipamentos de segurança e tecnologia com suporte incluso.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: compra e instalação em um só lugar.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <img src="/icons/support-wrench.svg" alt="" width="24" height="24" style="vertical-align: middle;" class="icon-gold">
+        </div>
+        <h3>Manutenção e suporte técnico</h3>
+        <p>Suporte preventivo e corretivo para todos os sistemas instalados pela AllTech.</p>
+        <p class="benefit" style="font-size:0.85rem; color:var(--color-accent); font-weight:600; margin-top:var(--space-xs);">Benefício: atendimento rápido quando você precisar.</p>
+      </div>
+    </div>
+
+    <aside style="grid-column: 1 / -1; margin-top: var(--space-32); background: var(--color-card); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-32); display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-32);">
+      <div>
+        <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--color-primary); margin-bottom: var(--space-16);">Por que escolher a AllTech</h3>
+        <ul style="list-style: none; padding: 0; margin: 0; color: var(--color-text); font-size: 0.95rem; line-height: 1.8;">
+          <li style="margin-bottom: var(--space-8);">✔ Fornecimento, instalação, configuração e manutenção integradas</li>
+          <li style="margin-bottom: var(--space-8);">✔ Atendimento em João Pessoa/PB e região</li>
+          <li style="margin-bottom: var(--space-8);">✔ Horário comercial 08:00 às 18:00</li>
+          <li style="margin-bottom: var(--space-8);">✔ Orçamento rápido pelo WhatsApp</li>
+        </ul>
+      </div>
+      <div>
+        <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--color-primary); margin-bottom: var(--space-16);">Perguntas frequentes</h3>
+        <details style="margin-bottom: var(--space-12); color: var(--color-text); font-size: 0.95rem;">
+          <summary style="cursor: pointer; font-weight: 600; color: var(--color-primary);">Atendem toda a Paraíba?</summary>
+          <p style="margin-top: var(--space-8); font-weight: 400;">Atendemos João Pessoa e municípios da Região Metropolitana e região da Paraíba.</p>
+        </details>
+        <details style="margin-bottom: var(--space-12); color: var(--color-text); font-size: 0.95rem;">
+          <summary style="cursor: pointer; font-weight: 600; color: var(--color-primary);">Fazem orçamento gratuito?</summary>
+          <p style="margin-top: var(--space-8); font-weight: 400;">Sim. Entre em contato pelo WhatsApp e solicite sua visita técnica.</p>
+        </details>
+        <details style="margin-bottom: var(--space-12); color: var(--color-text); font-size: 0.95rem;">
+          <summary style="cursor: pointer; font-weight: 600; color: var(--color-primary);">Trabalhamos com energia solar?</summary>
+          <p style="margin-top: var(--space-8); font-weight: 400;">Sim. Projeto e instalação de sistemas fotovoltaicos para economia de energia.</p>
+        </details>
+      </div>
+    </aside>
+
+    <div style="text-align: center; margin-top: var(--space-64);">
+      <a href="https://wa.me/558386759992?text=Olá,%20gostaria%20de%20um%20orçamento%20de%20servi%C3%A7os%20de%20segurança%20e%20tecnologia." class="btn-primary" target="_blank" rel="noopener">Solicitar orçamento pelo WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<Footer />

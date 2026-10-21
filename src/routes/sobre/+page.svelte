@@ -1,0 +1,72 @@
+<script>
+  import Logo from '$lib/components/Logo.svelte';
+  import Navbar from '$lib/components/Navbar.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+</script>
+
+<section class="header">
+  <div class="container">
+    <Logo />
+    <Navbar />
+    <a href="https://wa.me/558386759992" class="btn-whatsapp" target="_blank" rel="noopener">Orçamento pelo WhatsApp</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="eyebrow">Sobre a AllTech</p>
+      <h1>Quem somos</h1>
+      <p>Empresa institucional de tecnologia e segurança eletrônica, com atuação em João Pessoa/PB e região, comprometida com qualidade, ética e inovação.</p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-40); align-items: start; margin-bottom: var(--space-64);">
+      <div>
+        <h2 style="font-size: 1.5rem; font-weight: 700; color: var(--color-primary); margin-bottom: var(--space-16);">Identidade da empresa</h2>
+        <p><strong>Nome fantasia:</strong> AllTech - Tecnologia e Segurança</p>
+        <p><strong>Razão social:</strong> Jhonatas Gomes Dantas Nunes de Souza</p>
+        <p><strong>CNPJ:</strong> 65.655.392/0001-72</p>
+        <p><strong>E-mail:</strong> contato.alltechpb@gmail.com</p>
+        <p><strong>Localização:</strong> João Pessoa / PB e região</p>
+        <p><strong>Slogan:</strong> Tecnologia e Segurança</p>
+        <p><strong>Área de atuação:</strong> tecnologia, segurança eletrônica, infraestrutura de redes e soluções elétricas/tecnológicas.</p>
+      </div>
+      <div>
+        <h2 style="font-size: 1.5rem; font-weight: 700; color: var(--color-primary); margin-bottom: var(--space-16);">Missão, Visão e Valores</h2>
+        <p><strong>Missão:</strong> Oferecer soluções de tecnologia e segurança com excelência, protegendo pessoas e patrimônio com confiança.</p>
+        <p><strong>Visão:</strong> Ser referência em segurança eletrônica e tecnologia na Paraíba, reconhecida pela qualidade e pelo atendimento próximo.</p>
+        <p><strong>Valores:</strong></p>
+        <ul style="margin-left: var(--space-24); margin-top: var(--space-8); color: var(--color-text);">
+          <li>Compromisso com o cliente</li>
+          <li>Qualidade e eficiência</li>
+          <li>Ética e transparência</li>
+          <li>Inovação tecnológica</li>
+          <li>Segurança e confiabilidade</li>
+          <li>Responsabilidade</li>
+          <li>Evolução contínua</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section-header text-center" style="margin-top: var(--space-40);">
+      <p class="eyebrow">Atendemos</p>
+      <h2>Público-alvo</h2>
+      <p>Soluções adaptadas a diferentes perfis de imóvel e negócio.</p>
+    </div>
+    <div class="audience-grid">
+      <div class="audience-item"><strong>Residências</strong><span>Proteção para sua família</span></div>
+      <div class="audience-item"><strong>Empresas</strong><span>Segurança patrimonial corporativa</span></div>
+      <div class="audience-item"><strong>Condomínios</strong><span>Controle e monitoramento de áreas comuns</span></div>
+      <div class="audience-item"><strong>Comércios</strong><span>Segurança para lojas e pontos de venda</span></div>
+      <div class="audience-item"><strong>Escritórios</strong><span>Infraestrutura de rede e controle de acesso</span></div>
+      <div class="audience-item"><strong>Instituições de ensino</strong><span>Segurança para escolas e faculdades</span></div>
+      <div class="audience-item"><strong>PMEs</strong><span>Pequenos e médios negócios</span></div>
+    </div>
+
+    <div style="text-align: center; margin-top: var(--space-64);">
+      <a href="https://wa.me/558386759992?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20da%20AllTech." class="btn-primary" target="_blank" rel="noopener">Falar pelo WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<Footer />

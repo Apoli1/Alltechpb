@@ -1,0 +1,197 @@
+<script>
+  import Logo from '$lib/components/Logo.svelte';
+  import Navbar from '$lib/components/Navbar.svelte';
+  import Footer from '$lib/components/Footer.svelte';
+</script>
+
+<section class="header">
+  <div class="container">
+    <Logo />
+    <Navbar />
+    <a href="https://wa.me/558386759992" class="btn-whatsapp" target="_blank" rel="noopener">Orçamento pelo WhatsApp</a>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header text-center">
+      <p class="eyebrow">Produtos</p>
+      <h1>Equipamentos de tecnologia e segurança</h1>
+      <p>Catálogo dos equipamentos comercializados e instalados pela AllTech, com venda e instalação incluídas.</p>
+    </div>
+
+    <div class="products-grid">
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/cctv.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> Câmeras de segurança</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>Câmera CFTV interna</h3>
+            <p>Câmera de circuito fechado para monitoramento de ambientes internos com visão noturna.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Câmera CFTV externa</h3>
+            <p>Câmera resistente a intempéries para monitoramento de áreas externas e perímetro.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Câmera IP com acesso remoto</h3>
+            <p>Câmera de rede com visualização pelo celular de qualquer lugar.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/dvr-nvr.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> DVR/NVR</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>DVR híbrido</h3>
+            <p>Gravador digital para câmeras analógicas e IP com armazenamento local.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>NVR para câmeras IP</h3>
+            <p>Gravador de rede dedicado para sistemas de câmeras IP de alta resolução.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/hdd-ssd.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> HD/SSD</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>HD para DVR/NVR</h3>
+            <p>Disco rígido de alta capacidade para gravação contínua de imagens de segurança.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>SSD para servidores e estações</h3>
+            <p>Unidade de estado sólido para maior velocidade e confiabilidade em equipamentos de TI.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/router.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> Roteadores</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>Roteador residencial</h3>
+            <p>Roteador Wi-Fi para conexão estável em residências e pequenos escritórios.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Roteador empresarial</h3>
+            <p>Roteador de alto desempenho para empresas com múltiplos dispositivos e tráfego intenso.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/network-equipment.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> Equipamentos de rede</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>Switches de rede</h3>
+            <p>Chaves de rede para interligação de computadores, impressoras e servidores.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Pontos de acesso Wi-Fi</h3>
+            <p>Expansão da cobertura sem fio em ambientes corporativos e residenciais.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Caberia estruturada</h3>
+            <p>Instalação de cabeamento de rede organizado e padronizado.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/alarm.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> Alarmes</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>Central de alarme</h3>
+            <p>Central de alarme contra intrusão com sensores e notificação imediata.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Sensores de abertura e movimento</h3>
+            <p>Sensores para detecção de intrusão em portas, janelas e ambientes.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/gate-automation.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> Motores para portões</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>Motor para portão deslizante</h3>
+            <p>Motor de acionamento para portões deslizantes com controle remoto.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Motor para portão basculante</h3>
+            <p>Motor para automação de portões basculantes de diferentes tamanhos.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Motor para portão pivotante</h3>
+            <p>Motor de automação para portões pivotantes residenciais e comerciais.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/digital-lock.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> Fechaduras e controles de acesso</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>Fechadura elétrica</h3>
+            <p>Fechadura eletrônica para controle de entrada e saída de portas.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Eletroímã</h3>
+            <p>Trava eletromagnética para portas de vidro e madeira com acionamento remoto.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Leitor biométrico</h3>
+            <p>Leitor de impressão digital para controle de acesso restrito.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Cartão e senha de acesso</h3>
+            <p>Sistema de controle de acesso por cartão de proximidade e senha numérica.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h2 class="category-title" aria-hidden="true"><img src="/icons/solar.svg" alt="" width="18" height="18" style="vertical-align: middle; margin-right: 8px;" class="icon-gold"> Equipamentos de energia solar</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <h3>Placas fotovoltaicas</h3>
+            <p>Painéis solares para geração de energia elétrica residencial e comercial.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Inversor solar</h3>
+            <p>Inversor para conversão de energia solar em corrente alternada utilizável.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+          <div class="product-card">
+            <h3>Kit energia solar residencial</h3>
+            <p>Kit completo com placas, inversor e estrutura para instalação residencial.</p>
+            <p class="product-cta">Venda e instalação disponíveis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="text-align: center; margin-top: var(--space-64);">
+      <a href="https://wa.me/558386759992?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20da%20AllTech." class="btn-primary" target="_blank" rel="noopener">Solicitar orçamento pelo WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<Footer />
