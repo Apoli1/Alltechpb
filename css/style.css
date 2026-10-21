@@ -684,6 +684,7 @@ footer {
 /* ---------- Utilitários ---------- */
 .text-center { text-align: center; }
 .font-bold { font-weight: 700; }
+.icon-gold { color: var(--color-accent); }
 
 .visually-hidden {
   position: absolute;
