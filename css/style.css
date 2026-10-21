@@ -234,7 +234,7 @@ img {
 .hero .container {
   position: relative;
   z-index: 2;
-  max-width: 900px;
+  max-width: var(--container-max);
   margin: 0 auto;
   text-align: center;
   padding: 0 var(--space-md);
