@@ -1,13 +1,10 @@
+// svelte.config.js
 import adapter from '@sveltejs/adapter-vercel';
-import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 export default {
-  preprocess: vitePreprocess(),
   kit: {
-    adapter: adapter(),
-    alias: {
-      '@components': 'src/lib/components',
-      '$lib': 'src/lib'
-    }
+    adapter: adapter({
+      runtime: 'nodejs22.x' // Força o runtime para Node 22
+    })
   }
 };
