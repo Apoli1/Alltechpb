@@ -79,6 +79,7 @@
         <a href="https://wa.me/558386759992?text=Olá,%20gostaria%20de%20entrar%20em%20contato%20com%20a%20AllTech." class="btn-primary" target="_blank" rel="noopener">Falar pelo WhatsApp</a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 <Footer />
